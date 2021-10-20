@@ -79,6 +79,4 @@ app.post('/', (req,res) =>{
     
 })
 
-app.listen(port, () =>{
-    //console.log(`port ${port}`);
-})
+app.listen(process.env.PORT || 5000);
